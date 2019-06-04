@@ -1,0 +1,15 @@
+*.d
+*.o  #忽略所有的.d .o文件
+*.SFR   #忽略keil的配置文件
+*.FLM   #忽略flash文件
+*.ini
+*.uvoptx
+*.uvproject
+/MDK/output
+*.uvgui.Administrator
+*.txt
+*.scvd
+/RF347A
+/MDK/RF347.uvguix.Administrator
+/STM32_F750_test/MDK-ARM/STM32_F750_test
+/.vscode

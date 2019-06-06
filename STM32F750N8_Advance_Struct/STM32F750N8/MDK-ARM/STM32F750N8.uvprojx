@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F750xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc; ../Drivers/STM32F7xx_HAL_Driver/Inc; ../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy; ../Drivers/CMSIS/Device/ST/STM32F7xx/Include; ../Drivers/CMSIS/Include; ..\APP\inc; ..\BSP\bsp_inc</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F7xx_HAL_Driver/Inc;../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F7xx/Include;../Drivers/CMSIS/Include;..\APP\inc;..\BSP\bsp_inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -511,6 +511,11 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\APP\src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>appQSPIFlash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\APP\src\appQSPIFlash.c</FilePath>
             </File>
           </Files>
         </Group>

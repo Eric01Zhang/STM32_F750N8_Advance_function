@@ -238,6 +238,8 @@ uint8_t BSP_QSPI_Write(QSPI_HandleTypeDef *hqspi,uint8_t *pData, uint32_t WriteA
       return QSPI_ERROR;
    }
    Temp = ( pData[2] | pData[1]<<8 )| ( pData[0]<<16 );
+	 Temp++;
+	 
    return Temp;
 }
  
